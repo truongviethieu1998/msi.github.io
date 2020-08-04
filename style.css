@@ -253,6 +253,71 @@ img#img-logo {
     padding-left: 20px;
     font-size: 15px;
 }
+
+
+/* sản phẩm ------------------------- */
+.header-laptop-custom h2{
+    color: white;
+    font-size: 40px;
+    padding:20px 0 30px 0;
+}
+.header-laptop-custom a{
+    color: rgb(190, 190, 190);
+    margin: 10px 0;
+}
+.header-laptop-custom a:hover{
+    color: white;
+}
+.header-laptop-custom .select-laptop{
+    background: #222222;
+    color: white;
+}
+.header-laptop-custom .select-laptop .select-1{
+    padding: 20px;
+    line-height: 30px;
+}
+.header-laptop-custom .select-laptop .select-1 li:hover{
+    color: #f00;
+    transition: .3s all;
+    cursor: pointer;
+}
+.header-laptop-custom .select-laptop .select-1 li::before{
+    content: '○';
+    font-size: 25px;
+    margin-right: 5px;
+}
+.section-products{
+    background-color: black;
+    padding-bottom: 30px;
+}
+.product-laptop{
+    margin-top: 145px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+}
+.product-laptop-item{
+    text-align: center;
+    border: 2px solid;
+    transition: .3s all;
+    padding: 20px;
+    cursor: pointer;
+}
+.product-laptop-item:hover{
+    border: 2px solid #f00;
+}
+.product-laptop-item:hover p{
+    color: #f00;
+}
+.product-laptop-item p{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s all;
+}
+.product-laptop-item-info{
+    padding: 0 20px;
+}
 .col-xl-6 .item2,
 .col-xl-3 .item2,
 .col-xl-4 .item2 {
