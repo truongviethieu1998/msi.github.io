@@ -318,6 +318,240 @@ img#img-logo {
 .product-laptop-item-info{
     padding: 0 20px;
 }
+
+
+
+
+/* detail */
+.info-detail{
+    background-color: #f00;
+    color: white;
+    padding: 30px;
+}
+.info-detail small{
+    letter-spacing: 0.3em;
+    font-size: 12px;
+}
+.info-detail h2{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.info-detail span{
+    padding: 0 10px;
+}
+
+.banner1 img{
+    width: 100%;
+}
+.banner2 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+    margin: 2rem;
+}
+.banner2 img{
+    width: 100%;
+    cursor: pointer;
+    transition: .5s all;
+}
+.banner2-hover{
+    overflow: hidden;
+}
+.banner2-hover img:hover{
+    transform: scale(1.05);
+}
+.thongsomay{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px;
+    grid-gap: 4rem;
+}
+.slide{
+    width: 600px;
+}
+.slide img{
+    width: 100%;
+    object-fit: contain;
+}
+.slide .slick-prev,.slick-dots,.slick-next{
+    display: none !important;
+}
+.thongso-right{
+    color: white;
+    line-height: 30px;
+}
+.thongso-right ul{
+    color: white;
+    list-style: circle;
+}
+.video video{
+    width: 100%;
+}
+.banner3 img{
+    width: 100%;
+}
+.banner3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.banner3-1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
+    padding: 100px 0 0 2rem;
+}
+.banner3-1 p{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+.banner4{
+    position: relative;
+}
+.banner4 img{
+    width: 100%;
+}
+.banner4-info{
+    position: absolute;
+    width: 100%;
+    color: white;
+    text-align: center;
+    top: 150px;
+    padding: 0 300px;
+    line-height: 30px;
+}
+.banner4-info h4{
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.select-light{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.select-light img{
+    width: 70px;
+}
+.select-light-item1:hover,
+.select-light-item2:hover,
+.select-light-item3:hover,
+.select-light-item:hover{
+    color: #f00;
+    transition: .4s all;
+}
+.laptop-light-show{
+    
+}
+.laptop-light-show img{
+    position: relative;
+    z-index: 2;
+    top: 73vh;
+}
+.color1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+#color1{
+    display: none;
+}
+.color1 img{
+    height: 430px;
+    -webkit-animation: myfirst 8s linear infinite;
+    -o-animation: myfirst 8s linear infinite;
+    -ms-animation: myfirst 8s linear infinite;
+}
+#color2{
+    display: none;
+}
+#color2 img{
+    -webkit-animation: myfirst 10s linear infinite;
+    -o-animation: myfirst 10s linear infinite;
+    -ms-animation: myfirst 10s linear infinite;
+}
+#color3{
+    display: none;
+}
+#color3 img{
+    -webkit-animation: myfirst 8s linear infinite;
+    -o-animation: myfirst 8s linear infinite;
+    -ms-animation: myfirst 8s linear infinite;
+}
+#color-1{
+    position: absolute;
+    width: 100%;
+    height: 430px;
+    top: 73vh;
+    background: red;
+}
+#color{
+    border: none;
+    background: none;
+    outline: none;
+}
+/* #color4 img{
+    height: 430px;
+    -webkit-animation: HorizontalWave 1.5s linear infinite;
+    animation: HorizontalWave 1.5s linear infinite;
+    will-change: background-position;
+} */
+
+
+@keyframes myfirst {
+    to {
+        filter: hue-rotate(1440deg);
+    }
+
+    from {
+        filter: hue-rotate(0deg);
+    }
+}
+
+@-moz-keyframes myfirst {
+
+    from {
+        -moz-filter: hue-rotate(0deg);
+    }
+
+    to {
+        -moz-filter: hue-rotate(1440deg);
+    }
+}
+
+@-webkit-keyframes myfirst {
+    to {
+        -webkit-filter: hue-rotate(1440deg);
+    }
+
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+}
+
+@-o-keyframes myfirst {
+    to {
+        -o-filter: hue-rotate(1440deg);
+    }
+
+    from {
+        -o-filter: hue-rotate(0deg);
+    }
+}
+
+@-ms-keyframes myfirst {
+    to {
+        -ms-filter: hue-rotate(1440deg);
+    }
+
+    from {
+        -ms-filter: hue-rotate(0deg);
+    }
+}
+
 .col-xl-6 .item2,
 .col-xl-3 .item2,
 .col-xl-4 .item2 {
